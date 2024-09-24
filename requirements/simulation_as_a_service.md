@@ -2,7 +2,7 @@
 
 This document lists the requirements for the simulation service of the NFDI4Energy platform. 
 The overall goal of this simulation service is to better support the use of simulation in the energy domain, both for experts and interested non-experts. 
-Therefore, we aim to provide SaaS with the NFDI4Energy platform as a front-end.
+Therefore, we aim to provide Simulation-as-a-Service (SaaS) with the NFDI4Energy platform as a front-end.
 We curated the list in Measure 5.3 of Task Area 5. 
 The requirements list is based on the exemplary use cases described in Task Area 6.
 The IDs of the requirements refer to the use cases they are needed for. 
