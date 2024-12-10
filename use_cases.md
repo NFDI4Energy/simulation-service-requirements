@@ -50,8 +50,7 @@ The use cases for Task Area 5 were defined to clarify the goals and define the r
 |||
 |---|---|
 | **Scope/Objective**               | The user has to be supported in finding the best simulation framework for integrating a PV plant simulation model including simulator into a surrounding distribution power grid.  |
-| **Stakeholder**                   | researcher, student, domain expert
- |
+| **Stakeholder**                   | researcher, student, domain expert |
 | **Assumptions and Prerequisites** | \- The simulation frameworks and models have to be described in a standardized way and made available in a registry. <br />\- The registry also contains example scenarios that use the same PV controller as the requested one. <br />\- The user already knows which model will be used (**REF TO UCXYZ**). |
 | **Sequence/Workflow**             | 1\. The user is looking for a co-simulation framework. <br />2\. The user looks in the NFDI4Energy platform and can input requirements (Which co-simulation framework is best-suited for my simulation model and supports a suitable power grid simulator?). <br />3\. The possible co-simulation frameworks are shown in a comparable way (table)  <br />4\. The user chooses one of the frameworks that is best-suited for the use case. |
 | **Priority**                     | High |
