@@ -110,8 +110,7 @@ The use cases for Task Area 5 were defined to clarify the goals and define the r
 |---|---|
 |**Scope/Objective**|Add a model to the energy research software registry|
 |**Stakeholder**| software developer, researcher, student, industry |
-|**Assumptions and prerquisites**| \- The simulation model already exists<br />\- The simulation software that the model uses exists on the registry<br />\- Ability to reference other existing models with similar scope to make comparison easier<br />\- Motivation for adding a simulation model is similar to UC 5.1.1
-|
+|**Assumptions and prerquisites**| \- The simulation model already exists<br />\- The simulation software that the model uses exists on the registry<br />\- Ability to reference other existing models with similar scope to make comparison easier<br />\- Motivation for adding a simulation model is similar to UC 5.1.1 |
 |**Sequence/Workflow**|same as 5.1.1 but use other metadata schema for models instead|
 |**Priority**|medium|
 | **Related Measures**             | M5.1 |
