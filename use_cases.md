@@ -34,7 +34,7 @@ The use cases for Task Area 5 were defined to clarify the goals and define the r
 | **Priority**                     | High |
 | **Related Measures**             | M5.1 |
 
-## UC04 - Find simulation model and data for co-simulation
+## UC04 - Find simulation models and data for co-simulation
 |||
 |---|---|
 | **Scope/Objective**               | The user has to be supported in finding a simulation model for a PV plant to use it in a co-simulation, furthermore the user needs to find data for the model |
@@ -54,7 +54,7 @@ The use cases for Task Area 5 were defined to clarify the goals and define the r
 | **Priority**                     | Medium |
 | **Related Measures**             | M5.2, M5.1 |
 
-## UC06 - Creation of simulation scenarios
+## UC06 - Creation of co-simulation scenarios
 |||
 |---|---|
 | **Scope/Objective**               | Guide a user through the process of creating a co-simulation based on already chosen components. Include tools to automate part of the process. |
@@ -64,27 +64,27 @@ The use cases for Task Area 5 were defined to clarify the goals and define the r
 | **Priority**                     | High |
 | **Related Measures**             | M5.2 |
 
-## UC07 - Guided creation of simulation scenario based on research goal
+## UC07 - Guided creation of co-simulation scenario based on research goal
 |||
 |---|---|
 | **Scope/Objective**               | Guide a user through the process of creating a co-simulation based on the general research goal. Include tools to automate part of the process. |
 | **Stakeholder**                   | researcher, industry, student |
 | **Assumptions and Prerequisites** | \- simulation framework and simulation components are not yet strictly chosen. <br/>\- a domain ontology exists |
-| **Sequence/Workflow**             | 1\. The user describes the research goal (i.e., the output the simulation should provide) on the NFDI4Energy platform based on a domain ontology. <br/>2\. The user provides additional information about the planned simulation (e.g., time resolution) <br/>3\. The user gets recommendations for suitable co-simulation frameworks. (See also UC05) <br />4\. The user chooses suitable co-simulation framework. <br/>5\. The user gets recommendations for suitable simulation models. (See also UC07)  <br />6\. The user chooses suitable simulation models. <br />7\. User gets support on how to connect the chosen simulation components to create the scenario (e.g., assisted by a wizard or getting recommendations). This can also contain connection rules to make connections between groups of entities easier. (See also UC08) <br />8\. The user gets configuration files and instructions for the execution (as a text-file).  |
+| **Sequence/Workflow**             | 1\. The user describes the research goal (i.e., the output the simulation should provide) on the NFDI4Energy platform based on a domain ontology. <br/>2\. The user provides additional information about the planned simulation (e.g., time resolution) <br/>3\. The user gets recommendations for suitable co-simulation frameworks. (See also UC05) <br />4\. The user chooses suitable co-simulation framework. <br/>5\. The user gets recommendations for suitable simulation models. (See also UC07)  <br />6\. The user chooses suitable simulation models. <br />7\. The user gets support on how to connect the chosen simulation components to create the scenario (e.g., assisted by a wizard or getting recommendations). This can also contain connection rules to make connections between groups of entities easier. (See also UC08) <br />8\. The user gets configuration files and instructions for the execution (as a text-file).  |
 | **Priority**                     | High |
 | **Related Measures**             | M5.2 |
 
-## UC08 - Automated execution of a simulation scenario
+## UC08 - Automated execution of a co-simulation scenario
 |||
 |---|---|
-|**Scope/Objective**|Provide the possibility to execute a simulation scenario on the SIMaaS service|
+|**Scope/Objective**|Provide the possibility to execute a co-simulation scenario on the SimaaS service|
 |**Stakeholder**| researchers, industry, students |
-|**Assumptions and prerquisites**|The input configuration for the simulation scenario does exist in a format and schema as is specified by the co-simulation scenario ontology|
-|**Sequence/Workflow**|1. The user wants to execute a scenario that he or she has available locally<br />2. The SIMaaS is initialized with the upload of the scenario configuration<br />3. The user can review and modify the scenario configuration in the UI<br />4. Simulation is started and live execution dashboard is opened to visualize the progress (and data)<br />5. Simulation finishes and the dashboard updates to include the simulation results<br />6. The user downloads the bundle of the scenario configuration and the output data|
+|**Assumptions and prerquisites**|The input configuration for the co-simulation scenario does exist in a format and schema as is specified by the co-simulation scenario ontology|
+|**Sequence/Workflow**|1. The user wants to execute a scenario that he or she has available locally<br />2. The SimaaS is initialized with the upload of the scenario configuration<br />3. The user can review and modify the scenario configuration in the UI<br />4. Simulation is started and live execution dashboard is opened to visualize the progress (and data)<br />5. Simulation finishes and the dashboard updates to include the simulation results<br />6. The user downloads the bundle of the scenario configuration and the output data|
 |**Priority**|high|
 | **Related Measures**             | M5.3, M5.4 |
 
-## UC09 - Investigating and reproducing the results of a co-simulation
+## UC09 - Investigate and reproduce the results of a co-simulation
 |||
 |---|---|
 |**Scope/Objective**|A user wants to investigate and reproduce the results of existing research|
@@ -115,7 +115,7 @@ The use cases for Task Area 5 were defined to clarify the goals and define the r
 |**Priority**|medium|
 | **Related Measures**             | M5.1 |
 
-## UC12 - Sharing the results of a co-simulation FAIRly
+## UC12 - Share the results of a co-simulation FAIRly
 |||
 |---|---|
 |**Scope/Objective**|The user needs to be supported in recording his scenario and the result of his co-simulation. Furthermore, he needs to be able to share this|
